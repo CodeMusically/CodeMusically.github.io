@@ -1,2 +1,2 @@
-# codemusically.github.io
+# CodeMusically.github.io
  

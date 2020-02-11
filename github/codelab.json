@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-02-11T06:09:41Z",
+  "id": "codelab/android",
+  "duration": 37,
+  "title": "",
+  "authors": "Jason Lim",
+  "summary": "GitHub on Android Studio",
+  "source": "1t2fYeyuwI6tP2JDI5myyENZwJaKUey8OHrVCmKIwJ1s",
+  "theme": "web",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "Web"
+  ],
+  "tags": [
+    "intranet php"
+  ],
+  "feedback": "mailto:jason_lim@rp.edu.sg",
+  "url": "codelab/android"
+}

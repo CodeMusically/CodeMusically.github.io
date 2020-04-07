@@ -30,9 +30,8 @@
       <google-codelab-step label="Introduction" duration="0">
         <p class="image-container"><img style="width: 460.00px" src="img\55e2bb8c78d93d40.png"></p>
 <p><strong>Last Updated:</strong> 7th Apr 2020</p>
-<aside class="warning"><p><strong>Software Info</strong></p>
-<p>Android Studio version: 3.6.2</p>
-<p>SDK version: Android 10.0 (Q), API level 29</p>
+<aside class="warning"><p><strong>Android Studio version:</strong> 3.6.2</p>
+<p><strong>SDK version:</strong> Android 10.0 (Q), API level 29</p>
 </aside>
 <h2 is-upgraded><strong>What you&#39;ll build</strong></h2>
 <p>In this codelab, you&#39;re going to build your first Android app using Android Studio.</p>
@@ -48,7 +47,7 @@
 <ul>
 <li>A laptop that meets the recommended system requirements</li>
 </ul>
-<p class="image-container"><img style="width: 456.00px" src="img\eb2925ddd81144ce.png"></p>
+<p class="image-container"><img style="width: 397.50px" src="img\eb2925ddd81144ce.png"></p>
 <aside class="warning"><p><strong>Note:</strong> Please make sure that you have sufficient RAM and hard disk space. If the recommended requirements are not met, you may experience slowness and other performance issues.</p>
 </aside>
 
@@ -56,69 +55,107 @@
       </google-codelab-step>
     
       <google-codelab-step label="Download Android Studio" duration="10">
-        <p>There are now 2 types of installers made available by Google. The usual executable (.exe) file and a zip file. The installation requires few GB of space as many files will be downloaded during the process. Hence, make sure that you have a good Internet connection and sufficient RAM and hard disk space.</p>
-<p class="image-container"><img style="width: 580.00px" src="img\bad17e709dc688b0.png"></p>
+        <p>Download Android Studio 3.6.2 from the official Android developers&#39; website. </p>
+<p class="image-container"><img style="width: 624.00px" src="img\8666941c3a5d5655.png"></p>
+<p>The installation requires few GB of space as many files will be downloaded during the process. Hence, make sure that you have a good Internet connection and sufficient RAM and hard disk space.</p>
 <p><a href="https://developer.android.com/studio" target="_blank"><paper-button class="colored" raised><iron-icon icon="cloud_download"></iron-icon>Download Android Studio (.exe)</paper-button></a></p>
-<aside class="warning"><p><strong>Note:</strong> It is recommended to use .exe file for installation.</p>
+<aside class="warning"><p><strong>Note:</strong> Please use .exe file for installation.</p>
 </aside>
 
 
       </google-codelab-step>
     
-      <google-codelab-step label="Run the installer" duration="10">
-        <p>From the zip file, extract the android-studio folder to a specified location. Eg. D:\Android</p>
-<p>You may safely delete the zip file. </p>
-<p>Look for the executable file named <strong>studio64.exe</strong> by navigating to the <strong>bin</strong> folder. </p>
-<p class="image-container"><img style="width: 572.00px" src="img\bff11298624f4cb8.png"></p>
-<ul>
-<li>Run the installer by clicking on the .exe file. </li>
+      <google-codelab-step label="Run the installer (.exe)" duration="10">
+        <ul>
+<li>Run the installer by clicking on the .exe file. When you see the following windown, click <strong>Next</strong> to continue.</li>
 </ul>
-<aside class="special"><p><strong>Tip: </strong>It is useful to create a shortcut on your desktop or pin to the taskbar. In this way, you need not search high and low for the .exe file whenever you want to open Android Studio.</p>
+<p class="image-container"><img style="width: 452.39px" src="img\c3375102e8c579cc.png"></p>
+<ul>
+<li>Click <strong>Next</strong> to proceed to install. Note that the space required is 2.3GB.</li>
+</ul>
+<p class="image-container"><img style="width: 435.50px" src="img\fcd3c61e06e4a597.png"></p>
+<ul>
+<li>Choose a directory where Android Studio will be installed. Click <strong>Next</strong>. Eg. D:\Android\Android Studio</li>
+</ul>
+<p class="image-container"><img style="width: 490.50px" src="img\e85992fa3c29350a.png"></p>
+<aside class="special"><p><strong>Note: </strong>Place your Android Studio in D:\Android where possible.</p>
+<p>The SDK will be placed here as well.</p>
 </aside>
 <ul>
-<li>If you see the following window popping up, choose &#34;<strong>Do not import settings</strong>&#34; and click OK.</li>
+<li>Click <strong>Install </strong>to continue.</li>
+</ul>
+<p class="image-container"><img style="width: 458.00px" src="img\63c7de57fd61a061.png"></p>
+<aside class="special"><p><strong>Tip: </strong>It is useful to create a shortcut on your desktop or pin to the taskbar. In this way, you need not search high and low for the .exe file whenever you want to open Android Studio.</p>
+</aside>
+<p>During installation, Android Studio will download the necessary components from the internet. You will need to wait for this process to be completed.</p>
+<p>The time taken for the installation to be completed depends on the speed of the internet.</p>
+<p class="image-container"><img style="width: 489.00px" src="img\1d9986dcd5950dd.png"></p>
+<ul>
+<li>Once installation is completed, click <strong>Next</strong> to continue.</li>
+</ul>
+<p class="image-container"><img style="width: 483.00px" src="img\d1bd89e6bd9cc38c.png"></p>
+<ul>
+<li>When you see the following screen, it means that you have successfully installed Android Studio. Click <strong>Finish</strong> and continue with the first time setup.</li>
+</ul>
+<p class="image-container"><img style="width: 470.00px" src="img\c6204d93a8b2a1bf.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="First Time Configuration" duration="0">
+        <p>When you run Android Studio for the first time, you&#39;ll be prompted to do the initial setup.</p>
+<ul>
+<li>Click <strong>Do not import settings </strong>and click <strong>OK</strong>.</li>
+</ul>
+<p class="image-container"><img style="width: 351.50px" src="img\3433ca4a139415f6.png"></p>
+<ul>
+<li>If you have installed a previous version before, you&#39;ll see the following window instead. Choose <strong>Do not import settings</strong> and click <strong>OK</strong>.</li>
 </ul>
 <p class="image-container"><img style="width: 424.00px" src="img\b8a1fdcd9009904b.png"></p>
-<p>When Android Studio is starting for the first time, it will download the necessary components from the internet. You will need to wait for this process to be completed.</p>
-<p>The time taken for the installation to be completed depends on the speed of the internet.</p>
 <ul>
-<li>Click <strong>Next</strong> to start and follow the steps.</li>
+<li>The following is optional.</li>
 </ul>
-<p class="image-container"><img style="width: 390.00px" src="img\389eb27987f02b0c.png"></p>
+<p class="image-container"><img style="width: 540.50px" src="img\eaa4b297e881733d.png"></p>
+<ul>
+<li>You&#39;ll see the Android Studio Setup Wizard. Click <strong>Next</strong> to continue.</li>
+</ul>
+<p class="image-container"><img style="width: 518.00px" src="img\414e2b024c259b06.png"></p>
 <ul>
 <li>Choose <strong>Custom</strong> and click <strong>Next</strong>.</li>
 </ul>
-<p class="image-container"><img style="width: 435.00px" src="img\4cb12f192d1208a1.png"></p>
+<p class="image-container"><img style="width: 509.50px" src="img\20bec24ed4650be9.png"></p>
 <ul>
-<li>Select a directory to place the JDK. It is recommended that you place the JDK in an Android folder. Eg. D:\Android</li>
+<li>Select a directory to place the JDK. It is recommended that you place the JDK in an Android folder. Eg. D:\Android\Android Studio\jre</li>
 </ul>
-<p class="image-container"><img style="width: 354.00px" src="img\bafe765ed526a002.png"></p>
+<p class="image-container"><img style="width: 500.50px" src="img\eab1a74bdf438fc2.png"></p>
 <ul>
 <li>Choose a theme based on your preference, and click <strong>Next</strong>.</li>
 </ul>
-<p class="image-container"><img style="width: 465.00px" src="img\23ad10e385c0ece.png"></p>
+<p class="image-container"><img style="width: 494.50px" src="img\43d8fcb2268e90ff.png"></p>
 <ul>
-<li>In the SDK Components Setup page, make sure that the following items are checked: <strong>✅ </strong>Performance (Intel @ HAXM), <strong>✅ </strong>Android Virtual Device</li>
+<li>In the SDK Components Setup page, Performance (Intel @ HAXM) will be checked by default.</li>
 </ul>
 <aside class="warning"><p><strong>Tip:</strong> It is essential to enable Intel @ HAXM for improved performance when running an Android Virtual Device (AVD).</p>
 </aside>
 <ul>
-<li>By default, the Android SDK location will be defaulted to the user&#39;s AppData folder. </li>
+<li>Change the location of the Android SDK to D:\Android\Sdk. </li>
 </ul>
-<aside class="warning"><p><strong>Tip:</strong> Change the location of the Android SDK to D:\Android\Sdk.</p>
+<p class="image-container"><img style="width: 624.00px" src="img\7d7f2f4b38dbd6e7.png"></p>
+<p class="image-container"><img style="width: 446.50px" src="img\402a3ef7abdfdce1.png"></p>
+<aside class="warning"><p><strong>Tip:</strong> By default, the Android SDK location will be defaulted to the user&#39;s AppData folder. It is recommended to change.</p>
 </aside>
-<p class="image-container"><img style="width: 450.00px" src="img\43397f39feb7ef44.png"></p>
 <ul>
 <li>Leave the setting as recommended and click <strong>Next</strong>.</li>
 </ul>
-<p class="image-container"><img style="width: 456.00px" src="img\a2f7772f6dc609b9.png"></p>
+<p class="image-container"><img style="width: 518.50px" src="img\8abc792683b4f22b.png"></p>
 <ul>
 <li>Click <strong>Finish</strong> to start downloading. Be patient. This may take a long time.</li>
 </ul>
-<p class="image-container"><img style="width: 486.00px" src="img\fcf7d2cbf881b818.png"></p>
+<p class="image-container"><img style="width: 486.50px" src="img\c972290a01f0d146.png"></p>
 <ul>
-<li>After the installation has completed, you should see the screenshot below. Click <strong>Finish</strong> to continue. Congratulations! Your installation is done!</li>
+<li>After the installation has completed, you should see the screenshot below. Click <strong>Finish</strong>. Congratulations! Your installation is completed!</li>
 </ul>
+<p class="image-container"><img style="width: 482.50px" src="img\8251195ffeaab4ae.png"></p>
 
 
       </google-codelab-step>
@@ -127,21 +164,26 @@
         <ul>
 <li>Choose <strong>Start a new Android Studio project</strong>.</li>
 </ul>
-<p class="image-container"><img style="width: 624.00px" src="img\98438089964fbe30.png"></p>
+<p class="image-container"><img style="width: 445.50px" src="img\d83eff772ecdb01d.png"></p>
+<ul>
+<li>Select <strong>Empty Activity</strong> as the Project Template.</li>
+</ul>
+<p class="image-container"><img style="width: 544.50px" src="img\aef9d407287fafbf.png"></p>
 <ul>
 <li>Fill in the project details as below, and click <strong>Finish</strong>.</li>
 </ul>
-<p class="image-container"><img style="width: 398.00px" src="img\d6da9b5f69818ec7.png"></p>
-<p class="image-container"><img style="width: 443.00px" src="img\46f1a09e9ae962c4.png"></p>
+<p class="image-container"><img style="width: 360.50px" src="img\972e141e266dc561.png"></p>
+<p class="image-container"><img style="width: 548.50px" src="img\a18cab8376f812da.png"></p>
 <p>The first build will take some time. Be patient. When you see the page below or the main start-up page, it means that you have successfully created a new project.</p>
+<p class="image-container"><img style="width: 624.00px" src="img\723c9f34654a4e65.png"></p>
 <ul>
 <li>Click on the <strong>Assistant</strong> tab to close the right panel</li>
 </ul>
-<p class="image-container"><img style="width: 624.00px" src="img\b000a28bca291c16.png"></p>
+<p class="image-container"><img style="width: 624.00px" src="img\9c294a4848eb9a3e.png"></p>
 <ul>
 <li>Notice that 2 essential files are opened by default. They are activity_main.xml and MainActivity.java. These files already contained some codes and your app is ready to run! </li>
 </ul>
-<p class="image-container"><img style="width: 602.00px" src="img\7e72dc9351429e21.png"></p>
+<p class="image-container"><img style="width: 463.00px" src="img\8506ed170550d46a.png"></p>
 
 
       </google-codelab-step>
@@ -149,49 +191,55 @@
       <google-codelab-step label="Create an emulator" duration="5">
         <p>Before you can run any Android Studio project, you need to create an Android Virtual Device (AVD) first.</p>
 <ul>
+<li>In the Android project shown below, there is no AVD available to run the project.</li>
+</ul>
+<p class="image-container"><img style="width: 503.00px" src="img\d7f9e5d56af64ea.png"></p>
+<p>Let&#39;s proceed to create an AVD!</p>
+<ul>
 <li>Choose AVD Manager from the <strong>Tools</strong> menu</li>
 </ul>
-<p class="image-container"><img style="width: 472.00px" src="img\ace0007c32644b84.png"></p>
+<p class="image-container"><img style="width: 488.50px" src="img\9ad7fc2c550eb1a7.png"></p>
 <ul>
 <li>Alternatively, you can click on the AVD Manager icon from the Toolbar</li>
 </ul>
-<p class="image-container"><img style="width: 624.00px" src="img\7019e25cabcc1ee3.png"></p>
+<p class="image-container"><img style="width: 587.50px" src="img\7ff01b6d537253e0.png"></p>
 <ul>
 <li>Click on <strong>Create Virtual Device</strong> to create a new virtual device</li>
 </ul>
-<p class="image-container"><img style="width: 602.00px" src="img\5e784e7b1e2ee935.png"></p>
+<p class="image-container"><img style="width: 575.50px" src="img\2da810ef79667b5c.png"></p>
 <ul>
 <li>Under the Phone Category choose <strong>Pixel</strong>, and click <strong>Next</strong></li>
 </ul>
-<p class="image-container"><img style="width: 602.00px" src="img\d02de7e98c3111c.png"></p>
+<p class="image-container"><img style="width: 552.50px" src="img\6aa29c23bf4c3fc8.png"></p>
 <ul>
-<li>Select a System Image. Under <strong>Recommended</strong> tab, download <code>API Level 29</code> by clicking on the <strong>Download</strong> link.</li>
+<li>Select a System Image. Under <strong>Recommended</strong> tab, download <code>API Level R</code> by clicking on the <strong>Download</strong> link.</li>
 </ul>
-<p class="image-container"><img style="width: 602.00px" src="img\28669131e6b34501.png"></p>
+<p class="image-container"><img style="width: 567.50px" src="img\13dab1c9ad59cadf.png"></p>
 <ul>
 <li>Accept the Terms and Conditions for the SDK license and Click <strong>Next</strong>.</li>
 </ul>
-<p class="image-container"><img style="width: 555.00px" src="img\dd884f5ce4fdd2c1.png"></p>
+<p class="image-container"><img style="width: 624.00px" src="img\c529de760e47f6a.png"></p>
 <ul>
 <li>Click <strong>Finish</strong> when the installation is done.</li>
 </ul>
-<p class="image-container"><img style="width: 525.00px" src="img\66e90c81470b26e3.png"></p>
+<p class="image-container"><img style="width: 624.00px" src="img\275c88d81092ed23.png"></p>
 <ul>
-<li>Now the system image has been downloaded. Choose <code>API Level 29</code> and click <strong>Next</strong>.</li>
+<li>Now the system image has been downloaded. Choose <code>API Level R</code> and click <strong>Next</strong>.</li>
 </ul>
-<p class="image-container"><img style="width: 550.00px" src="img\599fefbd3bdd48ad.png"></p>
+<p class="image-container"><img style="width: 624.00px" src="img\17ff182b276d0b3f.png"></p>
 <ul>
 <li>You may change the AVD name if you wish to. Leave all other settings unchanged and click <strong>Finish</strong>.</li>
 </ul>
-<p class="image-container"><img style="width: 557.00px" src="img\167dad2934af93ec.png"></p>
+<p class="image-container"><img style="width: 624.00px" src="img\67fc67eabcc894bf.png"></p>
 <ul>
 <li>Now you should see the virtual device that you have just created. </li>
 </ul>
-<p class="image-container"><img style="width: 500.00px" src="img\780c07714ceb316a.png"></p>
+<p class="image-container"><img style="width: 624.00px" src="img\371f6b409246dc5f.png"></p>
 <ul>
 <li>At this point, you may launch your new AVD by clicking the green button. However, since we are going to run the app on the emulator, we&#39;ll skip this step.</li>
 </ul>
-<p class="image-container"><img style="width: 624.00px" src="img\65984385dcadf255.png"></p>
+<p class="image-container"><img style="width: 624.00px" src="img\1325884f975aaa9a.png"></p>
+<p class="image-container"><img style="width: 241.32px" src="img\79d1a87eb6a0c899.png"></p>
 
 
       </google-codelab-step>
@@ -200,30 +248,40 @@
         <ul>
 <li>From the menu bar in Android Studio, click the green play button to run the app.</li>
 </ul>
-<p class="image-container"><img style="width: 624.00px" src="img\225d0714e6755278.png"></p>
+<p class="image-container"><img style="width: 387.50px" src="img\6ff6351f8cbe2b0a.png"></p>
 <ul>
 <li>You should see your first &#34;Hello World&#34; app appearing on the emulator. Congratulations! You have successfully run your first Android app on the virtual device.</li>
 </ul>
-<p class="image-container"><img style="width: 257.00px" src="img\8a69a587015ad8a4.png"></p>
+<p class="image-container"><img style="width: 247.32px" src="img\e22712863af78371.png"></p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Making some modifications to your app" duration="10">
-        <p>Let&#39;s change the &#34;Hello World!&#34; message to something else.</p>
+        <p>Let&#39;s change the message from &#34;<strong>Hello World!</strong>&#34; to &#34;<strong>Android is fun!</strong>&#34;.</p>
 <ul>
 <li>In the main panel, click <strong>activity_main.xml</strong> tab.</li>
 </ul>
-<p>By default, the <strong>Design</strong> mode will be shown. In this mode, you&#39;ll be able to preview your app. You&#39;ll also be able to add new components and modify their attributes.</p>
-<p class="image-container"><img style="width: 602.00px" src="img\1807e6060f15fb84.png"></p>
-<p>▢</p>
-<p>The text &#34;<strong>Hello World App</strong>&#34; that appears on the App bar coincidentally is the name of your app. → Talk about AndroidManifest.xml</p>
+<p class="image-container"><img style="width: 602.00px" src="img\32c4fbd91fec1711.png"></p>
+<ul>
+<li>Navigate to the <strong>Design</strong> mode as shown below. In this mode, you&#39;ll be able to preview your app. You&#39;ll also be able to add new components and modify their attributes.</li>
+</ul>
+<p class="image-container"><img style="width: 494.50px" src="img\eb3a653d7918666.png"></p>
+<ul>
+<li>In the <strong>Component Tree</strong> panel, select <strong>TextView</strong> item. In the <strong>Attributes</strong> panel, you&#39;ll notice that the value for <strong>Text</strong> attribute is &#34;<strong>Hello World!</strong>&#34;.</li>
+</ul>
+<p class="image-container"><img style="width: 541.00px" src="img\b529f80525f136af.png"></p>
+<ul>
+<li>Change the text to &#34;<strong>Android is fun!</strong>&#34; and run the app again.</li>
+</ul>
+<p class="image-container"><img style="width: 547.50px" src="img\21f9e24bd4480761.png"></p>
+<p class="image-container"><img style="width: 275.94px" src="img\4aa39c22294a4d00.png"></p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Congratulations" duration="0">
-        <p>Congratulations, you&#39;ve successfully built your first Android App! </p>
+        <p>Congratulations, you&#39;ve successfully set up and create your first Android App! </p>
 
 
       </google-codelab-step>

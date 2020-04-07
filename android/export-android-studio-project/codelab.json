@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-04-07T12:50:57Z",
+  "id": "export-android-studio-project",
+  "duration": 0,
+  "title": "Export an Android Studio project",
+  "authors": "Denise Quek",
+  "summary": "In this codelab, you'll learn how to export an Android Studio project into a zip file",
+  "source": "1jNgiA7jR2--zNDT-rqZQd5d0mrSTzXacJYG4A-TxmB0",
+  "theme": "web",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "Web"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "denise_quek@rp.edu.sg",
+  "url": "export-android-studio-project"
+}

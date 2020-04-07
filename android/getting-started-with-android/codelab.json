@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-04-07T03:31:16Z",
+  "id": "getting-started-with-android",
+  "duration": 50,
+  "title": "Getting Started with Android",
+  "authors": "Denise Quek",
+  "summary": "In this codelab, you'll install Android Studio, create your first Android app and create an emulator to run your Android app.",
+  "source": "1gDSCxzHr1Y9kdguVKb8YEqe4B3ucfiijlLmaWY-77Z8",
+  "theme": "web",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "Web"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "denise_quek@rp.edu.sg",
+  "url": "getting-started-with-android"
+}

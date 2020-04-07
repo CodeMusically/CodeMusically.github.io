@@ -1,0 +1,190 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Getting Started with Android</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="getting-started-with-android"
+                  title="Getting Started with Android"
+                  environment="web"
+                  feedback-link="denise_quek@rp.edu.sg">
+    
+      <google-codelab-step label="Introduction" duration="0">
+        <p><strong>Last Updated:</strong> 7th Apr 2020                                                               </p>
+<p><strong>Software Info</strong></p>
+<p>Android Studio version: 3.6.2</p>
+<p>SDK version: Android 10.0 (Q), API level 29</p>
+<h2 is-upgraded><strong>What you&#39;ll build</strong></h2>
+<p>In this codelab, you&#39;re going to build your first Android app using Android Studio.</p>
+<h2 class="checklist" is-upgraded><strong>What you&#39;ll learn</strong></h2>
+<ul class="checklist">
+<li>How to install Android Studio</li>
+<li>How to create an Android project</li>
+<li>How to run your Android app using an emulator</li>
+<li>How to run your Android app using an Android phone</li>
+</ul>
+<h2 is-upgraded><strong>What you&#39;ll need</strong></h2>
+<ul>
+<li>A laptop that meets the recommended system requirements</li>
+</ul>
+<aside class="warning"><p><strong>Note:</strong> Please make sure that you have sufficient RAM and hard disk space. If the recommended requirements are not met, you may experience slowness and other performance issues.</p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Download Android Studio" duration="10">
+        <p>There are now 2 types of installers made available by Google. The usual executable (.exe) file and a zip file. The installation requires few GB of space as many files will be downloaded during the process. Hence, make sure that you have a good Internet connection and sufficient RAM and hard disk space.</p>
+<p><a href="https://developer.android.com/studio" target="_blank"><paper-button class="colored" raised><iron-icon icon="cloud_download"></iron-icon>Download Android Studio (.exe)</paper-button></a>        <a href="https://developer.android.com/studio#downloads" target="_blank"><paper-button class="colored" raised><iron-icon icon="cloud_download"></iron-icon>Download Android Studio (.zip)</paper-button></a></p>
+<aside class="warning"><p><strong>Note:</strong> It is recommended to use .exe file for installation.</p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Run the installer" duration="10">
+        <p>From the zip file, extract the android-studio folder to a specified location. Eg. D:\Android</p>
+<p>You may safely delete the zip file. </p>
+<p>Look for the executable file named <strong>studio64.exe</strong> by navigating to the <strong>bin</strong> folder. </p>
+<ul>
+<li>Run the installer by clicking on the .exe file. </li>
+</ul>
+<aside class="special"><p><strong>Tip: </strong>It is useful to create a shortcut on your desktop or pin to the taskbar. In this way, you need not search high and low for the .exe file whenever you want to open Android Studio.</p>
+</aside>
+<ul>
+<li>If you see the following window popping up, choose &#34;<strong>Do not import settings</strong>&#34; and click OK.</li>
+</ul>
+<p>When Android Studio is starting for the first time, it will download the necessary components from the internet. You will need to wait for this process to be completed.</p>
+<p>The time taken for the installation to be completed depends on the speed of the internet.</p>
+<ul>
+<li>Click <strong>Next</strong> to start and follow the steps.</li>
+<li>Choose <strong>Custom</strong> and click <strong>Next</strong>.</li>
+<li>Select a directory to place the JDK. It is recommended that you place the JDK in an Android folder. Eg. D:\Android</li>
+<li>Choose a theme based on your preference, and click <strong>Next</strong>.</li>
+<li>In the SDK Components Setup page, make sure that the following items are checked: <strong>✅ </strong>Performance (Intel @ HAXM), <strong>✅ </strong>Android Virtual Device</li>
+</ul>
+<aside class="warning"><p><strong>Tip:</strong> It is essential to enable Intel @ HAXM for improved performance when running an Android Virtual Device (AVD).</p>
+</aside>
+<ul>
+<li>By default, the Android SDK location will be defaulted to the user&#39;s AppData folder. </li>
+</ul>
+<aside class="warning"><p><strong>Tip:</strong> Change the location of the Android SDK to D:\Android\Sdk.</p>
+</aside>
+<ul>
+<li>Leave the setting as recommended and click <strong>Next</strong>.</li>
+<li>Click <strong>Finish</strong> to start downloading. Be patient. This may take a long time.</li>
+<li>After the installation has completed, you should see the screenshot below. Click <strong>Finish</strong> to continue. Congratulations! Your installation is done!</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Create Your First Android Project" duration="10">
+        <ul>
+<li>Choose <strong>Start a new Android Studio project</strong>.</li>
+<li>Fill in the project details as below, and click <strong>Finish</strong>.</li>
+</ul>
+<p>The first build will take some time. Be patient. When you see the page below or the main start-up page, it means that you have successfully created a new project.</p>
+<ul>
+<li>Click on the <strong>Assistant</strong> tab to close the right panel</li>
+<li>Notice that 2 essential files are opened by default. They are activity_main.xml and MainActivity.java. These files already contained some codes and your app is ready to run! </li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Create an emulator" duration="5">
+        <p>Before you can run any Android Studio project, you need to create an Android Virtual Device (AVD) first.</p>
+<ul>
+<li>Choose AVD Manager from the <strong>Tools</strong> menu</li>
+<li>Alternatively, you can click on the AVD Manager icon from the Toolbar</li>
+<li>Click on <strong>Create Virtual Device</strong> to create a new virtual device</li>
+<li>Under the Phone Category choose <strong>Pixel</strong>, and click <strong>Next</strong></li>
+<li>Select a System Image. Under <strong>Recommended</strong> tab, download <code>API Level 29</code> by clicking on the <strong>Download</strong> link.</li>
+<li>Accept the Terms and Conditions for the SDK license and Click <strong>Next</strong>.</li>
+<li>Click <strong>Finish</strong> when the installation is done.</li>
+<li>Now the system image has been downloaded. Choose <code>API Level 29</code> and click <strong>Next</strong>.</li>
+<li>You may change the AVD name if you wish to. Leave all other settings unchanged and click <strong>Finish</strong>.</li>
+<li>Now you should see the virtual device that you have just created. </li>
+<li>At this point, you may launch your new AVD by clicking the green button. However, since we are going to run the app on the emulator, we&#39;ll skip this step.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Run your app" duration="5">
+        <ul>
+<li>From the menu bar in Android Studio, click the green play button to run the app.</li>
+<li>You should see your first &#34;Hello World&#34; app appearing on the emulator. Congratulations! You have successfully run your first Android app on the virtual device.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Making some modifications to your app" duration="10">
+        <p>Let&#39;s change the &#34;Hello World!&#34; message to something else.</p>
+<ul>
+<li>In the main panel, click <strong>activity_main.xml</strong> tab.</li>
+</ul>
+<p>By default, the <strong>Design</strong> mode will be shown. In this mode, you&#39;ll be able to preview your app. You&#39;ll also be able to add new components and modify their attributes.</p>
+<p>▢</p>
+<p>The text &#34;<strong>Hello World App</strong>&#34; that appears on the App bar coincidentally is the name of your app. → Talk about AndroidManifest.xml</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Congratulations" duration="0">
+        <p>Congratulations, you&#39;ve successfully built your first Android App! </p>
+<h2 is-upgraded><strong>What&#39;s next?</strong></h2>
+<p>Check out some of these codelabs...</p>
+<ul>
+<li><a href="https://codelabs.developers.google.com/codelabs/push-notifications/index.html" target="_blank">Adding Push Notifications to a Web App</a></li>
+<li><a href="https://codelabs.developers.google.com/codelabs/debugging-service-workers/index.html" target="_blank">Debugging Service Workers</a></li>
+<li><a href="https://codelabs.developers.google.com/codelabs/workbox-lab/index.html" target="_blank">Build a PWA using Workbox</a></li>
+</ul>
+<h2 is-upgraded><strong>Further reading</strong></h2>
+<ul>
+<li><a href="https://developers.google.com/web/fundamentals/primers/service-workers/high-performance-loading" target="_blank">High-performance service worker loading</a></li>
+<li><a href="https://medium.com/dev-channel/service-worker-caching-strategies-based-on-request-types-57411dd7652c" target="_blank">Service Worker Caching Strategies Based on Request Types</a></li>
+</ul>
+<h2 is-upgraded><strong>Reference docs</strong></h2>
+<ul>
+<li><a href="https://developers.google.com/web/fundamentals/web-app-manifest" target="_blank">Web App Manifest docs</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Manifest#Members" target="_blank">Web App Manifest properties (MDN)</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/app-install-banners/" target="_blank">Install &amp; Add to Home Screen</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/primers/service-workers/" target="_blank">Service Worker Overview</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle" target="_blank">Service Worker Lifecycle</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/primers/service-workers/high-performance-loading" target="_blank">High-performance service worker loading</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/#generic-fallback" target="_blank">Offline Cookbook</a></li>
+</ul>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+
+</body>
+</html>

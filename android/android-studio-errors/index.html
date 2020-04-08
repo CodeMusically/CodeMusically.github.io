@@ -28,18 +28,37 @@
                   feedback-link="denise_quek@rp.edu.sg">
     
       <google-codelab-step label="Detected ADB Warning" duration="0">
-        <p>This is a warning saying that the ADB binary found is obsolete. It is not a critical error.</p>
+        <p class="image-container"><img style="width: 292.00px" src="img\8c874cbcf79ac17d.png"></p>
+<p>This is a warning saying that the ADB binary found is obsolete. It is not a critical error.</p>
 <h2 is-upgraded><strong>Action to take </strong></h2>
-<p>Check the ADB version.</p>
+<ul>
+<li>Check the ADB version.</li>
+</ul>
 <aside class="warning"><p>The ADB&#39;s location is found in the alert box.. </p>
 <p>Navigate to the platform-tools directory where adb.exe is located.</p>
 <p>Execute the following command in the Command Prompt.</p>
 <p><code>adb.exe --version</code></p>
 </aside>
+<ul>
+<li>The adb version used is likely for an older SDK</li>
+</ul>
+<p class="image-container"><img style="width: 471.00px" src="img\be15a14557c16da2.png"></p>
 <h2 is-upgraded><strong>Possible Solution</strong></h2>
 <ul>
 <li>Uninstall older SDK build tools versions, leaving only the most recent one</li>
 </ul>
+<h3 is-upgraded>Step 1: Open Android Studio and navigate to the Android SDK panel. From the top menu, choose Tools → <strong>SDK Manager</strong>.</h3>
+<p class="image-container"><img style="width: 624.00px" src="img\48f071c66e09f155.png"></p>
+<h3 is-upgraded>Step 2: In Android SDK main window, select <strong>SDK Tools</strong> tab.</h3>
+<p class="image-container"><img style="width: 624.00px" src="img\3a9adfea42643dfd.png"></p>
+<h3 is-upgraded>Step 3: Check <strong>Show Package Details</strong>. You will see the build tools that you have.</h3>
+<p class="image-container"><img style="width: 514.22px" src="img\a79349efd072be1f.png"></p>
+<h3 is-upgraded>Step 4: Uncheck the older built tools and click <strong>OK</strong>.</h3>
+<p class="image-container"><img style="width: 602.00px" src="img\ae66d515610adb9e.png"></p>
+<h3 is-upgraded>Step 5: Click <strong>OK</strong> to proceed with the deletion.</h3>
+<p class="image-container"><img style="width: 383.00px" src="img\c72c72d69aa0127f.png"></p>
+<h3 is-upgraded>Step 6: Click <strong>Finish</strong>. You can run your app now.</h3>
+<p class="image-container"><img style="width: 602.00px" src="img\f1a507ef1ac1c02e.png"></p>
 <h2 is-upgraded><strong>Reference</strong></h2>
 <p><a href="https://stackoverflow.com/questions/51240223/adb-exe-is-obsolete-and-has-serious-performance-problems" target="_blank">https://stackoverflow.com/questions/51240223/adb-exe-is-obsolete-and-has-serious-performance-problems</a></p>
 
